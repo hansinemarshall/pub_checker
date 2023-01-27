@@ -35,10 +35,6 @@ public class Guest {
         return this.age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-        return;
-    }
 
     public boolean is18OrOver(){
         if( this.age >= 18){
@@ -56,9 +52,6 @@ public class Guest {
         return;
     }
 
-//    public int getSobriety() {
-//        return sobriety;
-//    }
 
     public void setSobriety(int sobriety) {
         if(sobriety > MAX_SOBRIETY){
